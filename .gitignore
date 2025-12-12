@@ -1,0 +1,16 @@
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE / OS
+*.sdf
+*.opensdf
+*.VC.db
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+.DS_Store
