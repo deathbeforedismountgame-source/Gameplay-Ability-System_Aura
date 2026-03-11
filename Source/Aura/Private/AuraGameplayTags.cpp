@@ -43,12 +43,12 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.Attributes_Secondary_BlockChance = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Attributes.Secondary.BlockChance"),
-	FString("Chance to cut incoming damage in half")
+	FString("Chance to cut incoming damage in half.")
 	);
 	
 	GameplayTags.Attributes_Secondary_CriticalHitChance = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Attributes.Secondary.CriticalHitChance"),
-	FString("Chance to double damage plus critical hit bonus")
+	FString("Chance to double damage plus critical hit bonus.")
 	);
 	
 	GameplayTags.Attributes_Secondary_CriticalHitDamage = UGameplayTagsManager::Get().AddNativeGameplayTag(
@@ -73,12 +73,12 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.Attributes_Secondary_MaxHealth = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Attributes.Secondary.MaxHealth"),
-	FString("Maximum amount of health obtainable.")
+	FString("Maximum amount of Health obtainable.")
 	);
 	
 	GameplayTags.Attributes_Secondary_MaxMana = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Attributes.Secondary.MaxMana"),
-	FString("Maximum amount of mana obtainable.")
+	FString("Maximum amount of Mana obtainable.")
 	);
 	
 }
